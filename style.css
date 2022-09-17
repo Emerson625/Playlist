@@ -1,0 +1,1139 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.home {
+    position: absolute;
+    width: 250px;
+    height: 814px;
+    left: 224px;
+    top: 0px;
+    background: linear-gradient(180.72deg, #903FE1 68.68%, #611685 114.81%);
+}
+
+.cabeçalho {
+    position: absolute;
+    width: 250.5px;
+    height: 69.03px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background: linear-gradient(359.27deg, #903FE1 7.78%, #40025C 182.26%);
+    background-blend-mode: darken;
+    
+}
+.cabeçalho a {
+    color: white;
+    text-decoration: none;
+}
+
+.cabeçalho h1 {
+    font-size: 28px;
+}
+
+.cabeçalho h1:hover {
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+ul {
+    margin-left: -44px;
+    font-size: larger;
+}
+
+ul:hover {
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.fundo{
+    position: absolute;
+    width: 224px;
+    height: 628px;
+    left: 0px;
+    top: 186px;
+
+    background: linear-gradient(179.37deg, #6500B5 43.15%, #000000 140.56%);
+    border-radius: 0px;
+}
+
+.fundo2 {
+    position: absolute;
+    width: 224px;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(356.44deg, #6500B5 25.92%, #000000 151.94%);
+}
+
+.logo {
+   
+position: absolute;
+width: 103.72px;
+height: 110.23px;
+left: 60px;
+top: 12.95px;
+background: linear-gradient(54.2deg, #7000FF 13.54%, rgba(255, 0, 153, 0) 112.49%);
+filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+border-radius: 58px;
+z-index: 100;
+}
+
+.logo img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    
+}
+
+.aba {
+    position: absolute;
+    width: 102px;
+    height: 532px;
+    left: 122px;
+    top: 185px;
+    background: #8237CD;
+    box-shadow: 0px 4px  #1F0F30;
+    z-index: 99;
+    border-radius: 160px 0px 0px 160px;
+}
+
+#linkedin {
+    position: absolute;
+    width: 64px;
+    height: 63px;
+    left: 19px;
+    top: 96px;
+    border-radius: 40px;
+    background: linear-gradient(145.36deg, #260C35 13.95%, rgba(38, 12, 53, 0) 82.59%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 101;
+}
+
+#linkedin img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+
+#linkedin:hover, #linkedin img:hover {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #39005a;
+    border-radius: 40px;
+}
+
+#github {
+    position: absolute;
+    width: 64px;
+    height: 63px;
+    left: 19px;
+    top: 220px;
+    border-radius: 40px;
+    background: linear-gradient(145.36deg, #260C35 13.95%, rgba(38, 12, 53, 0) 82.59%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 101;
+}
+
+#github img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 0px;
+    top: 0px; 
+}
+
+#github:hover, #github img:hover {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px  #39005a;
+    border-radius: 40px;
+}
+
+#instagram {
+    position: absolute;
+    width: 64px;
+    height: 63px;
+    left: 19px;
+    top: 360px;
+    border-radius: 40px;
+    background: linear-gradient(145.36deg, #260C35 13.95%, rgba(38, 12, 53, 0) 82.59%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 101;
+}
+
+#instagram img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 0px;
+    top: 0px; 
+}
+
+#instagram:hover, #instagram img:hover {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #39005a;
+    border-radius: 40px;
+}
+
+.rodape1 {
+    position: absolute;
+    width: 474px;
+    height: 194px;
+    left: 0px;
+    top: 810px;
+    background: linear-gradient(3.61deg, #000E57 -189.61%, #41015F 106.91%);
+
+}
+
+.rodape2 {
+    position: absolute;
+    width: 695px;
+    height: 97px;
+    left: 0px;
+    top: 907px;
+    background: linear-gradient(180deg, #29005E -5.67%, #350E74 100%);
+
+}
+
+#songwave1 img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 133px;
+    top: 17px;
+    z-index: 102;
+}
+
+#songwave2 img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 188px;
+    top: 17px;
+    z-index: 102;
+}
+
+#songwave3 img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 242px;
+    top: 17px;
+    z-index: 102;
+}
+
+
+#perfil {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 68px;
+    top: 20px;
+    border-radius: 50%;
+    background: linear-gradient(161.84deg, #330F99 25.77%, #FF2CF7 131.68%, #B041E3 134.13%);
+    cursor: pointer;
+}
+
+#perfil img {
+    
+position: absolute;
+width: 42px;
+height: 42px;
+left: 11px;
+top: 11px;
+
+}
+
+#perfil p {
+    position: absolute;
+    width: 35px;
+    height: 29px;
+    left: 72px;
+    top: 12px;
+    color: white;
+}
+
+#perfil2 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 271px;
+    top: 20px;
+    border-radius: 50%;
+    background: linear-gradient(161.84deg, #330F99 25.77%, #FF2CF7 131.68%, #B041E3 134.13%);
+    cursor: pointer;
+}
+
+#perfil2 img {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 12px;
+    top: 12px;
+}
+
+#perfil2 p {
+    position: absolute;
+    width: 35px;
+    height: 29px;
+    left: 72px;
+    top: 12px;
+    color: white;
+
+}
+
+.header {
+    background: linear-gradient(360deg, #6500A4 0%, #6500A4 19.79%, #000534 100%);
+    height: 388px;
+    width: 1046px;
+    position: absolute;
+    right: 0px;
+}
+
+.header img {
+    position: absolute;
+    width: 136px;
+    height: 138.55px;
+    left: 803px;
+    top: 106px;
+    border-radius: 50%;
+    filter: drop-shadow(6px 6px 12px #000000);
+}
+
+.header img:hover {
+    cursor: pointer;
+    width: 140px;
+    height: 142.55px;
+    transition: 0.5s;
+}
+
+.header h2 {
+    position: absolute;
+    left: 831px;
+    top: 245px;
+    color: white;
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.titulo {
+    position: absolute;
+    width: 610.48px;
+    height: 229px;
+    left: 78px;
+    top: 69px;
+    background: #8100BE;
+    filter: drop-shadow(0px 10px 10px rgba(33, 0, 125, 0.25));
+    border-radius: 22px;
+}
+
+.emissu {
+    position: absolute;
+    width: 367.35px;
+    height: 170px;
+    left: 122px;
+    bottom: 66px;
+    font-family: 'Arapey';
+    font-size: 26px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.songs {
+    position: absolute;
+    width: 1046px;
+    height: 639px;
+    background: linear-gradient(177.42deg, #6500A4 2.16%, #210067 102.71%);
+    bottom: 0px;
+    right: 0px;
+    top:365px;
+    
+}
+
+.songs img {
+    width: 225px;
+    height: 155px;
+    border-radius: 26px;
+}
+
+.song1 {
+    position: absolute;
+    width: 225px;  
+    height: 231px;
+    left: 42px;
+    top: 47px;
+    background: #511079;
+    border-radius: 26px;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+}
+
+.song1:hover {
+    position: absolute;
+    
+    height: 233px;
+    
+    top: 38px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.song1 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.song2 {
+    position: absolute;
+    width: 225px;
+    height: 231px;
+    left: 290.75px;
+    top: 47px;
+    background: #511079;
+    border-radius: 26px;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+}
+
+.song2:hover {
+    position: absolute;
+     
+    height: 233px;
+    
+    top: 38px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.song2 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.song3 {
+    position: absolute;
+    width: 225px;
+    height: 231px;
+    left: 540px;
+    top: 46px;
+    background: #511079;
+    border-radius: 26px;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+}
+
+.song3:hover {
+    position: absolute;
+      
+    height: 233px;
+    
+    top: 38px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.song3 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.song4 {
+    position: absolute;
+    width: 225px;
+    height: 231px;
+    left: 788.75px;
+    top: 46px;
+    background: #511079;
+    border-radius: 26px;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+}
+
+.song4:hover {
+    position: absolute;
+     
+    height: 233px;
+    
+    top: 38px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.song4 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.song5 {
+    position: absolute;
+    width: 225px;
+    height: 231px;
+    left: 42px;
+    bottom: 81px;
+    background: #511079;
+    border-radius: 22px;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+
+}
+
+.song5:hover {
+    position: absolute;
+      
+    height: 233px;
+    
+    bottom: 89px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.song5 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.song6 {
+    position: absolute;
+    width: 225px;
+    height: 231px;
+    border-radius: 26px;
+    bottom: 81px;
+    left: 290.75px ;
+    background: #511079;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+}
+
+.song6:hover {
+    position: absolute;
+     
+    height: 233px;
+
+    bottom: 89px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.song6 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.song7 {
+    position: absolute;
+    width: 225px;
+    height: 231px;
+    border-radius: 26px;
+    bottom: 81px;
+    background: #511079;
+    left: 540px;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+}
+
+.song7:hover {
+    position: absolute; 
+    height: 233px;
+    bottom: 89px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.song7 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.song8 {
+    position: absolute;
+    width: 225px;
+    height: 231px;
+    border-radius: 26px;
+    bottom: 81px;
+    left: 788.75px;
+    background: #511079;
+    filter: drop-shadow(0px 10px 10px rgba(8, 0, 58, 0.25));
+}
+
+.song8:hover {
+    position: absolute;
+     
+    height: 233px;
+
+    bottom: 89px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.song8 h2 {
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 16px;
+    top: 142px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*Bad*/
+
+.lyricsbad h3 {
+    position: absolute;
+width: 136px;
+height: 27px;
+left: 259px;
+top: -36px;
+
+font-family: 'Balthazar';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.lyricsbad h4 {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 29px;
+    top: 60px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricsbad #part2 {
+    position: absolute;
+    width: 273px;
+    height: 140px;
+    left: 437px;
+    top: 10px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playerbad{
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+/*Love me*/
+
+.lyricslove h3 {
+    position: absolute;
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 259px;
+    top: -36px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lyricslove h4 {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 29px;
+    top: 160px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricslove #part2 {
+    position: absolute;
+    width: 273px;
+    height: 140px;
+    left: 407px;
+    top: 110px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playerlove {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+/*Eye of the tiger*/
+
+.lyricseye h3 {
+    position: absolute;
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 259px;
+    top: -36px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lyricseye h4 {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 29px;
+    top: 110px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricseye #part2 {
+    position: absolute;
+    width: 273px;
+    height: 140px;
+    left: 407px;
+    top: 110px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playereye {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+/*Beautiful Girl*/
+
+
+.lyricsbeautiful h3 {
+    position: absolute;
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 259px;
+    top: -36px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lyricsbeautiful h4 {
+    position: absolute;
+    width: 380px;
+    height: 400px;
+    left: 16px;
+    top: 20px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricsbeautiful #part2 {
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    left: 404px;
+    top: 20px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playerbeautiful {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+/*Me leva para casa*/
+
+.lyricsmeleva h3 {
+    position: absolute;
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 259px;
+    top: -36px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lyricsmeleva h4 {
+    position: absolute;
+    width: 380px;
+    height: 400px;
+    left: 16px;
+    top: 20px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricsmeleva #part2 {
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    left: 404px;
+    top: 30px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playermeleva {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+/*Father forgive me*/
+
+.lyricsfather h3 {
+    
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 259px;
+    top: -36px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lyricsfather h4 {
+    position: absolute;
+    width: 380px;
+    height: 400px;
+    left: 16px;
+    top: 20px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricsfather #part2 {
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    left: 404px;
+    top: 30px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playerfather {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+/*Rei Lacoste*/
+
+.lyricsrei h3 {
+    
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 259px;
+    top: -36px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lyricsrei h4 {
+    position: absolute;
+    width: 380px;
+    height: 400px;
+    left: 16px;
+    top: 20px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricsrei #part2 {
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    left: 404px;
+    top: 30px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playerrei {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+
+/*Nothing Feels Better*/
+.lyricsnothing h3 {
+    
+    position: absolute;
+    width: 136px;
+    height: 27px;
+    left: 259px;
+    top: -36px;
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lyricsnothing h4 {
+    position: absolute;
+    width: 380px;
+    height: 400px;
+    left: 16px;
+    top: 20px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.lyricsnothing #part2 {
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    left: 404px;
+    top: 30px;
+
+    font-family: 'Balthazar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.playernothing {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+    
+}
+
